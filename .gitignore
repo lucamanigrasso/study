@@ -1,0 +1,68 @@
+# =========================
+# Compilati Java
+# =========================
+*.class
+
+# =========================
+# Log
+# =========================
+*.log
+
+# =========================
+# File temporanei
+# =========================
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# Directory di build
+# =========================
+/target/
+/build/
+/out/
+
+# =========================
+# Maven
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# =========================
+# Eclipse
+# =========================
+.project
+.classpath
+.settings/
+.factorypath
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
